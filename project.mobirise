@@ -719,7 +719,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1125.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -732,7 +732,7 @@
             "showTitle": true,
             "showCaption": true
           },
-          "title": "Wheat",
+          "title": "Wheat<br>",
           "caption": "<p><br></p><p>.</p>"
         },
         {
