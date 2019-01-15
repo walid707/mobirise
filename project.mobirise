@@ -23,7 +23,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 115,
-    "versionPublish": "4.5.4",
+    "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x117-1.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
@@ -67,23 +67,23 @@
           },
           "_anchor": "header1-1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1324.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1324.jpg",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.3",
             "overlayColor": "#000",
-            "overlayOpacity": "0.3"
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "<span style=\"line-height: 1.1;\"><br></span><br><span style=\"line-height: 1.1;\">منتجع الجنابين الوطني للترفيه والمنتجات المحلية</span><br><br>",
           "text": "منتجع ترفيهي وسفاري برية يحتوي على مجموعة من الأكواخ مع بعض الألعاب الترفيهية ومزرعة نموذجية لبعض النباتات والأشجار وكذلك تحتوي على حضائر أبقار وانواع من الماشية لإنتاج الايسكريم الطازج وغيرها ويعتبر اول مشروع سياحي كبير وصديق للبيئة<br>",
@@ -96,24 +96,24 @@
           "_name": "header2",
           "_anchor": "header2-2j",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/landscape.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.3,
             "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -148,13 +148,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -165,15 +165,15 @@
           "_name": "map2",
           "_anchor": "map2-1b",
           "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgColor": "#fff",
             "googleMap": {
               "address": "وادي الجنابين",
               "placeId": "ChIJRXLUsBNv7xURGDYNAMuzL7c",
               "state": "ok",
               "stateDetails": ""
-            },
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "bgColor": "#fff"
+            }
           }
         },
         {
@@ -183,15 +183,8 @@
           ],
           "_name": "gallery2",
           "_params": {
-            "showBullets": true,
-            "fullWidth": true,
-            "spacing": 0,
             "paddingTop": 4,
             "paddingBottom": 4,
-            "filterBgColor": false,
-            "bgColor": "fff",
-            "showText": false,
-            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -373,7 +366,14 @@
                 "caption": "Type caption here",
                 "active": true
               }
-            ]
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
           },
           "_anchor": "gallery2-1o",
           "articleLayout": false,
@@ -391,19 +391,19 @@
           },
           "_anchor": "form1-1p",
           "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#fff",
+            "bgColorRadio": true,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showSubTitle": true
           },
           "title": "CONTACT FORM",
           "subtitle": "",
@@ -492,17 +492,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-2i",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -542,13 +542,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -559,23 +559,23 @@
           "_name": "header1",
           "_anchor": "header1-1s",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/muebles-hechos-de-madera-2000x1400.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/muebles-hechos-de-madera-2000x1400.jpg",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "Homemade",
           "text": "&nbsp;سيحتوي المنتجع على مبنى للمحلات المعدة لبيع المنتجات من المزرعة وكذلك المنتجات المحلية والأسر المنتجة المتواجدة في المنطقة واخذ قيمة رمزية على ذلك<br>",
@@ -593,22 +593,22 @@
           "_name": "content5",
           "_anchor": "content5-1u",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Iceream&nbsp;",
           "caption": ""
@@ -625,22 +625,22 @@
           "_name": "content5",
           "_anchor": "content5-1v",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1194.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1194.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Vegtables",
           "caption": ""
@@ -657,22 +657,22 @@
           "_name": "content5",
           "_anchor": "content5-1w",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Animals for meat and other products",
           "caption": ""
@@ -689,22 +689,22 @@
           "_name": "content5",
           "_anchor": "content5-1x",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1505.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1505.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Flowers",
           "caption": "<p>&nbsp;</p>"
@@ -721,22 +721,22 @@
           "_name": "content5",
           "_anchor": "content5-2p",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1121.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1121.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Sheep",
           "caption": "<p><br></p><p><br></p><p><br></p>"
@@ -753,22 +753,22 @@
           "_name": "content5",
           "_anchor": "content5-2q",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1331.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1331.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Honey&nbsp;",
           "caption": "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>"
@@ -785,22 +785,22 @@
           "_name": "content5",
           "_anchor": "content5-2r",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1357.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1357.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Wheat and corn&nbsp;",
           "caption": "<p><br></p><p><br></p>"
@@ -875,17 +875,17 @@
           "_name": "menu",
           "_anchor": "menu-1y",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
@@ -913,24 +913,24 @@
           "_name": "header2",
           "_anchor": "header2-20",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.3,
             "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -973,27 +973,27 @@
           "_name": "pricing-table1",
           "_anchor": "pricing-table1-21",
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "firstType": "",
-            "secondType": "bg-primary",
-            "thirdType": "",
-            "fourthType": "",
             "paddingTop": 3,
             "paddingBottom": 3,
-            "showButtons": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#303030",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "bg-primary",
+            "thirdType": "",
+            "fourthType": ""
           },
           "title": "PRICING TABLE",
           "subtitle": "اسعار الاجار اليومي للاكواخ&nbsp;",
@@ -1046,24 +1046,24 @@
           },
           "_anchor": "header2-22",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/yellow-springs-2000x1230.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.3,
             "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -1098,13 +1098,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -1120,22 +1120,22 @@
           "_name": "content5",
           "_anchor": "content5-2g",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1500.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Riding horse<br><br><br><br><br><br><br><br><br><br>",
           "caption": ""
@@ -1152,22 +1152,22 @@
           "_name": "content5",
           "_anchor": "content5-2k",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/-2000x1303.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/-2000x1303.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "",
           "caption": ""
@@ -1184,22 +1184,22 @@
           "_name": "content5",
           "_anchor": "content5-2m",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/picture3-2000x1116.png",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/picture3-2000x1116.png",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "<br><br>",
           "caption": "<p><br></p><p><br></p><p><br></p>"
@@ -1216,22 +1216,22 @@
           "_name": "content5",
           "_anchor": "content5-2n",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/picture1r-2000x1203.png",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/picture1r-2000x1203.png",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "<br><br>",
           "caption": "<p><br></p><p><br></p><p><br></p><p><br></p>"
@@ -1248,22 +1248,22 @@
           "_name": "content5",
           "_anchor": "content5-2s",
           "_params": {
-            "showTitle": true,
-            "showCaption": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/tenis-2000x1346.png",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/tenis-2000x1346.png",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showCaption": true
           },
           "title": "Tennis court",
           "caption": ""
@@ -1283,13 +1283,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Mobirise."
         },
@@ -1349,17 +1349,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-2u",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -1392,19 +1392,19 @@
           },
           "_anchor": "form1-2v",
           "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#fff",
+            "bgColorRadio": true,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showSubTitle": true
           },
           "title": "CONTACT FORM",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
